@@ -19,7 +19,7 @@ execute as @a at @s if score @s dragontheme matches 5480.. run scoreboard player
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 execute as @a at @s if score @s dragontheme matches 1.. run stopsound @s music
-execute as @a at @s if score @s dragontheme matches 1 run title @s actionbar [{"bold":true,"color":"light_purple","text":"Now playing: "},{"bold":false,"color":"white","text":"solunary - "},{"bold":false,"color":"white","italic":true,"text":"\"The end at hand\""}]
+execute as @a at @s if score @s dragontheme matches 1 run title @s actionbar [{"bold":true,"color":"light_purple","text":"Now playing: "},{"bold":false,"color":"white","text":"solunary - "},{"bold":false,"color":"white","italic":true,"text":"\"Afterglow\""}]
 execute as @a at @s if score @s dragontheme matches 2 run playsound boss_music_mod:enderdragonbosstheme record @s ~ ~ ~ 0.65
 execute as @a at @s unless entity @e[type=ender_dragon,distance=..400] run stopsound @s record boss_music_mod:enderdragonbosstheme
 execute as @a at @s unless entity @e[type=ender_dragon,distance=..400] run scoreboard players set @s dragontheme 0
