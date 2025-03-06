@@ -28,5 +28,5 @@ scoreboard objectives add withertheme dummy
 scoreboard objectives add dragontheme dummy
 scoreboard objectives add bosmjoinmes dummy
 scoreboard players add @a bosmjoinmes 1
-execute as @a at @s if score @s bosmjoinmes matches 100 run tellraw @s {"text":"Thank you for installing The Exiled Fellow's Boss Music Mod!","color":"gold"}
+execute as @a at @s if score @s bosmjoinmes matches 100 run tellraw @s ["",{"text":"BOSS BATTLE THEME MOD","color":"gold"}," CODE BỞI ",{"text":"KUROKAMI FUBUKI","underlined":true,"color":"dark_red","bold":true},",CHÚC BẠN CHƠI GAME VUI VẺ!"]
 execute as @a at @s if score @s bosmjoinmes matches 5000.. run scoreboard players set @s bosmjoinmes 101
