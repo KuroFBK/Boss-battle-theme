@@ -11,7 +11,7 @@ execute as @a at @s if score @s withertheme matches 2 run playsound boss_music_m
 execute as @a at @s unless entity @e[type=wither,distance=..300] run stopsound @s record boss_music_mod:witherboss
 execute as @a at @s unless entity @e[type=wither,distance=..300] run scoreboard players set @s withertheme 0
 execute as @a at @s unless entity @e[type=wither,distance=..300] run tag @s remove witherthemeplays
-execute as @a at @s if entity @e[type=ender_dragon,distance=..500] run tag @s add dragonthemeplays
+execute as @a at @s if entity @e[type=ender_dragon,distance=..1000] run tag @s add dragonthemeplays
 scoreboard players add @a[tag=dragonthemeplays] dragontheme 1
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -21,9 +21,9 @@ execute as @a at @s if score @s dragontheme matches 5480.. run scoreboard player
 execute as @a at @s if score @s dragontheme matches 1.. run stopsound @s music
 execute as @a at @s if score @s dragontheme matches 1 run title @s actionbar [{"bold":true,"color":"light_purple","text":"Now playing: "},{"bold":false,"color":"white","text":"solunary - "},{"bold":false,"color":"white","italic":true,"text":"\"Afterglow\""}]
 execute as @a at @s if score @s dragontheme matches 2 run playsound boss_music_mod:enderdragonbosstheme record @s ~ ~ ~ 0.65
-execute as @a at @s unless entity @e[type=ender_dragon,distance=..500] run stopsound @s record boss_music_mod:enderdragonbosstheme
-execute as @a at @s unless entity @e[type=ender_dragon,distance=..500] run scoreboard players set @s dragontheme 0
-execute as @a at @s unless entity @e[type=ender_dragon,distance=..500] run tag @s remove dragonthemeplays
+execute as @a at @s unless entity @e[type=ender_dragon,distance=..1000] run stopsound @s record boss_music_mod:enderdragonbosstheme
+execute as @a at @s unless entity @e[type=ender_dragon,distance=..1000] run scoreboard players set @s dragontheme 0
+execute as @a at @s unless entity @e[type=ender_dragon,distance=..1000] run tag @s remove dragonthemeplays
 scoreboard objectives add withertheme dummy
 scoreboard objectives add dragontheme dummy
 scoreboard objectives add bosmjoinmes dummy
