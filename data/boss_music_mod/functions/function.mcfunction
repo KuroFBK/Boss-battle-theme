@@ -6,7 +6,7 @@ execute as @a at @s if score @s withertheme matches 2500.. run scoreboard player
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 execute as @a at @s if score @s withertheme matches 1.. run stopsound @s music
-execute as @a at @s if score @s withertheme matches 1 run title @s actionbar [{"bold":true,"color":"light_purple","text":"Now playing: "},{"bold":false,"color":"white","text":"84tangelo - "},{"bold":false,"color":"white","italic":true,"text":"\"The Wither\""}]
+execute as @a at @s if score @s withertheme matches 1 run title @s actionbar [{"bold":true,"color":"light_purple","text":"Now playing: "},{"bold":false,"color":"white","text":"84tangelo - "},{"bold":false,"color":"white","italic":true,"text":"\"Der Hexenkönig\""}]
 execute as @a at @s if score @s withertheme matches 2 run playsound boss_music_mod:witherboss record @s ~ ~ ~ 0.7
 execute as @a at @s unless entity @e[type=wither,distance=..150] run stopsound @s record boss_music_mod:witherboss
 execute as @a at @s unless entity @e[type=wither,distance=..150] run scoreboard players set @s withertheme 0
