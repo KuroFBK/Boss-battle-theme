@@ -6,9 +6,9 @@ license="Academic Free License v3.0"
 modId="boss_music_mod"
 version="1.0.0"
 displayName="Boss Music Mod"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="Marcus, MCreator"
+credits="Created By Kurokami Fubuki"
+displayURL=""
+authors="Kurokami Fubuki"
 
 [[dependencies.boss_music_mod]]
     modId="minecraft"
